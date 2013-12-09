@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>data</key>
+	<dict>
+		<key>cocos2d.x.fps</key>
+		<integer>30</integer>
+		<key>cocos2d.x.display_fps</key>
+		<true/>
+		<key>cocos2d.jsb.boot_file</key>
+		<string>main.js</string>
+		<key>cocos2d.jsb.search_path</key>
+		<string></string>
+		<key>cocos2d.html5.boot_file</key>
+		<string>boot_html5.js</string>
+		<key>cocos2d.player.enabled</key>
+		<false/>
+		<key>game.version</key>
+		<string>1.0</string>
+		<key>game.name</key>
+		<string>My Game</string>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>
