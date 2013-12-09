@@ -2242,6 +2242,7 @@
 				79D151631854FA410041D768 /* libwebsockets */,
 			);
 			name = libs;
+			path = "../../cocos2d-x-2.1.4";
 			sourceTree = "<group>";
 		};
 		79D14D411854FA3A0041D768 /* cocos2dx */ = {
@@ -2281,9 +2282,8 @@
 				79983CF5185561CA007624E7 /* tilemap_parallax_nodes */,
 				79983D02185561CA007624E7 /* touch_dispatcher */,
 			);
-			name = cocos2dx;
-			path = "../../../Applications/cocos2d-x-2.1.4/cocos2dx";
-			sourceTree = SOURCE_ROOT;
+			path = cocos2dx;
+			sourceTree = "<group>";
 		};
 		79D14F311854FA3D0041D768 /* CocosDenshion */ = {
 			isa = PBXGroup;
@@ -2292,9 +2292,8 @@
 				79983FDD1855656C007624E7 /* ios */,
 				79983FE81855656C007624E7 /* proj.ios */,
 			);
-			name = CocosDenshion;
-			path = "../../../Applications/cocos2d-x-2.1.4/CocosDenshion";
-			sourceTree = SOURCE_ROOT;
+			path = CocosDenshion;
+			sourceTree = "<group>";
 		};
 		79D14F491854FA3D0041D768 /* javascript */ = {
 			isa = PBXGroup;
@@ -2303,8 +2302,8 @@
 				79D14FB81854FA3F0041D768 /* spidermonkey-ios */,
 			);
 			name = javascript;
-			path = "../../../Applications/cocos2d-x-2.1.4/scripting/javascript";
-			sourceTree = SOURCE_ROOT;
+			path = scripting/javascript;
+			sourceTree = "<group>";
 		};
 		79D14F4A1854FA3D0041D768 /* bindings */ = {
 			isa = PBXGroup;
@@ -2366,8 +2365,7 @@
 				79D14FB91854FA3F0041D768 /* include */,
 				79D150031854FA3F0041D768 /* lib */,
 			);
-			name = "spidermonkey-ios";
-			path = "../../../../Applications/cocos2d-x-2.1.4/scripting/javascript/spidermonkey-ios";
+			path = "spidermonkey-ios";
 			sourceTree = "<group>";
 		};
 		79D14FB91854FA3F0041D768 /* include */ = {
@@ -2421,8 +2419,8 @@
 				79D150261854FA400041D768 /* src */,
 			);
 			name = chipmunk;
-			path = "../../../Applications/cocos2d-x-2.1.4/external/chipmunk";
-			sourceTree = SOURCE_ROOT;
+			path = external/chipmunk;
+			sourceTree = "<group>";
 		};
 		79D150081854FA400041D768 /* include */ = {
 			isa = PBXGroup;
@@ -2513,8 +2511,7 @@
 				7998358A18555E4F007624E7 /* physics_nodes */,
 				7998358F18555E4F007624E7 /* spine */,
 			);
-			name = extensions;
-			path = "../../../../Applications/cocos2d-x-2.1.4/extensions";
+			path = extensions;
 			sourceTree = "<group>";
 		};
 		79D151631854FA410041D768 /* libwebsockets */ = {
@@ -2523,8 +2520,8 @@
 				79D151641854FA410041D768 /* ios */,
 			);
 			name = libwebsockets;
-			path = "../../../Applications/cocos2d-x-2.1.4/external/libwebsockets";
-			sourceTree = SOURCE_ROOT;
+			path = external/libwebsockets;
+			sourceTree = "<group>";
 		};
 		79D151641854FA410041D768 /* ios */ = {
 			isa = PBXGroup;
@@ -3011,13 +3008,13 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"\"$(PROJECT_NAME)/../cocos2d-x-2.1.4/cocos2dx/kazmath/include\"",
-					"\"$(PROJECT_NAME)/../cocos2d-x-2.1.4/cocos2dx\"",
-					"\"$(PROJECT_NAME)/../cocos2d-x-2.1.4/CocosDenshion/include\"",
-					"\"$(PROJECT_NAME)/../cocos2d-x-2.1.4/extensions\"",
-					"\"$(PROJECT_NAME)/../cocos2d-x-2.1.4/cocos2dx/include\"",
-					"\"$(PROJECT_NAME)/../cocos2d-x-2.1.4/cocos2dx/platform/third_party/ios\"",
-					"\"$(PROJECT_NAME)/../cocos2d-x-2.1.4/cocos2dx/platform/ios\"",
+					"\"$(SRCROOT)/../../cocos2d-x-2.1.4/cocos2dx/kazmath/include\"",
+					"\"$(SRCROOT)/../../cocos2d-x-2.1.4/cocos2dx\"",
+					"\"$(SRCROOT)/../../cocos2d-x-2.1.4/CocosDenshion/include\"",
+					"\"$(SRCROOT)/../../cocos2d-x-2.1.4/extensions\"",
+					"\"$(SRCROOT)/../../cocos2d-x-2.1.4/cocos2dx/include\"",
+					"\"$(SRCROOT)/../../cocos2d-x-2.1.4/cocos2dx/platform/third_party/ios\"",
+					"\"$(SRCROOT)/../../cocos2d-x-2.1.4/cocos2dx/platform/ios\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
@@ -3041,13 +3038,13 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"\"$(PROJECT_NAME)/../cocos2d-x-2.1.4/cocos2dx/kazmath/include\"",
-					"\"$(PROJECT_NAME)/../cocos2d-x-2.1.4/cocos2dx\"",
-					"\"$(PROJECT_NAME)/../cocos2d-x-2.1.4/CocosDenshion/include\"",
-					"\"$(PROJECT_NAME)/../cocos2d-x-2.1.4/extensions\"",
-					"\"$(PROJECT_NAME)/../cocos2d-x-2.1.4/cocos2dx/include\"",
-					"\"$(PROJECT_NAME)/../cocos2d-x-2.1.4/cocos2dx/platform/third_party/ios\"",
-					"\"$(PROJECT_NAME)/../cocos2d-x-2.1.4/cocos2dx/platform/ios\"",
+					"\"$(SRCROOT)/../../cocos2d-x-2.1.4/cocos2dx/kazmath/include\"",
+					"\"$(SRCROOT)/../../cocos2d-x-2.1.4/cocos2dx\"",
+					"\"$(SRCROOT)/../../cocos2d-x-2.1.4/CocosDenshion/include\"",
+					"\"$(SRCROOT)/../../cocos2d-x-2.1.4/extensions\"",
+					"\"$(SRCROOT)/../../cocos2d-x-2.1.4/cocos2dx/include\"",
+					"\"$(SRCROOT)/../../cocos2d-x-2.1.4/cocos2dx/platform/third_party/ios\"",
+					"\"$(SRCROOT)/../../cocos2d-x-2.1.4/cocos2dx/platform/ios\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
